@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <title>Assingment Submission</title>
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="column">
+                <div class="check">
+                    Name :Assignment
+                    <div style="margin-right: 35px;">Status</div>
+
+                </div>
+
+
+
+                <% admins.forEach(data=> { %>
+
+                    <div class="check">
+                        <%= data.student %>:
+
+                            <%= data.assingment %>
+                                <div>
+                                    <%= data.action %>
+                                </div>
+
+                    </div>
+                    <% }) %>
+
+
+            </div>
+        </div>
+
+</body>
+
+</html>

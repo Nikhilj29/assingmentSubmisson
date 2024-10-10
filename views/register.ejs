@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Assignment Submission</title>
+</head>
+
+<body>
+
+    <div style="display: flex;flex-direction: row;">
+        <div class="box">
+            <center>
+                <h1>User Register</h1>
+            </center>
+            <form class="login" action="http://localhost:4000/register/user" method="post">
+                <label class="margin" style="margin-top:20px ; height: 20px;">Enter Your Name</label>
+                <input type="text" placeholder="User Id" style="height: 20px;" name="username">
+                <label class="margin" style="margin-top: 20px; height: 20px;">Enter Your Password</label>
+                <input type="password" placeholder="Password" style="height: 20px;" name="password">
+                <label class="margin" style="margin-top: 20px; height: 20px;">Conform your Password</label>
+                <input type="password" placeholder="Password" style="height: 20px;" name="passwordc">
+                <button style="margin-top: 20px;" type="submit">Login</button>
+
+                <!-- <center><p style="margin-top: 20px">If you Dont have an account </p><a href="" style="text-decoration: none;">Register</a></center> -->
+
+            </form>
+        </div>
+
+        <div class="box">
+            <center>
+                <h1>Admin Register</h1>
+            </center>
+            <form class="login" action="http://localhost:4000/register/admin" method="post">
+                <label class="margin" style="margin-top:20px ; height: 20px;">Enter Your Name</label>
+                <input type="text" placeholder="User Id" style="height: 20px;" name="username">
+                <label class="margin" style="margin-top: 20px; height: 20px;">Enter Your Password</label>
+                <input type="password" placeholder="Password" style="height: 20px;" name="password">
+                <label class="margin" style="margin-top: 20px; height: 20px;">Conform your Password</label>
+                <input type="password" placeholder="Password" style="height: 20px;" name="passwordc">
+                <button style="margin-top: 20px;" type="submit">Login</button>
+
+                <!-- <center><p style="margin-top: 20px">If you Dont have an account </p><a href="" style="text-decoration: none;">Register</a></center> -->
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

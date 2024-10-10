@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Assignment Submittion</title>
+</head>
+
+<body>
+    <div style="display: flex;flex-direction: row;">
+        <div class="box">
+            <center>
+                <h1>User Login</h1>
+            </center>
+            <form class="login" action="http://localhost:4000/login/user" method="post">
+                <label class="margin" style="margin-top:20px ; height: 20px;">Enter Your Name</label>
+                <input type="text" placeholder="User Id" style="height: 20px;" name="username">
+                <label class="margin" style="margin-top: 20px; height: 20px;">Enter Your Password</label>
+                <input type="password" placeholder="Password" style="height: 20px;" name="password">
+                <button style="margin-top: 20px;" type="submit">Login</button>
+
+                <center>
+                    <p style="margin-top: 20px">If you Dont have an account </p><a href="http://localhost:4000/register"
+                        style="text-decoration: none;">Register</a>
+                </center>
+
+            </form>
+        </div>
+
+        <div class="box">
+            <center>
+                <h1>Admin Login</h1>
+            </center>
+            <form class="login" action="http://localhost:4000/login/admin" method="post">
+                <label class="margin" style="margin-top:20px ; height: 20px;">Enter Your Name</label>
+                <input type="text" placeholder="User Id" style="height: 20px;" name="username">
+                <label class="margin" style="margin-top: 20px; height: 20px;">Enter Your Password</label>
+                <input type="password" placeholder="Password" style="height: 20px;" name="password">
+                <button style="margin-top: 20px;" type="submit">Login</button>
+
+                <center>
+                    <p style="margin-top: 20px">If you Dont have an account </p><a href="http://localhost:4000/register"
+                        style="text-decoration: none;">Register</a>
+                </center>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
