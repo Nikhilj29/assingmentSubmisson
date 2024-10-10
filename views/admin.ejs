@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Admission Submittion</title>
+</head>
+
+<body>
+
+    <center>
+        <h1 style="margin-top: 2rem;">Welcome <%=username %>
+        </h1>
+    </center>
+    <div class="row">
+        <div class="column">
+            <div class="check">
+                Name
+                <div style="margin-right: 35px;">Actions</div>
+
+            </div>
+
+
+
+            <% datas.forEach(data=> { %>
+
+                <div class="check">
+                    <%= data.student %>:
+                        <%= data.assingment %>
+                            <div>
+                                <button onclick="approve('<%=data._id%>')">Approve</button>
+                                <button onclick="reject('<%= data._id%>')">Reject</button>
+                            </div>
+                </div>
+                <% }) %>
+
+
+        </div>
+    </div>
+    <script src="/js/action.js" type="text/javascript"></script>
+</body>
+
+</html>
