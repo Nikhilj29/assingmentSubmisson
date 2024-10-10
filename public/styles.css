@@ -1,0 +1,61 @@
+.login {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    margin-left: 10%;
+}
+
+.box {
+    /* height:50%; */
+    height: 23rem;
+    width: 30%;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    /* margin-bottom: 3rem; */
+    border: 1rem solid;
+}
+
+
+.block {
+    height: 80%;
+    width: 80%;
+    /* margin-top: 5%;
+    margin-left: 10%; */
+    border: 0.4rem solid;
+    display: flex;
+    justify-content: center;
+}
+
+.Write {
+    height: 400px;
+    width: 1000px;
+    margin-top: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 0 20%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.check {
+    width: 800px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5rem solid;
+    padding: 1rem;
+
+}
+
+.admin {
+    margin-top: 0.5rem;
+    /* width: 900px; */
+}
